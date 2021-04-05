@@ -7,4 +7,4 @@ Currently our coders are Camden Martin and Malia Moreno.
 
 Our testers and others joining this progect will be Veronica Scott, Bibiennegrace Lopez, and Emma Lee.
 
-I also want to give the credit to this idea to Emma Lee.
+I also want to give the credit of this idea to Emma Lee.
