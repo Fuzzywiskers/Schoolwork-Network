@@ -5,6 +5,6 @@ While it might take a while to create, and experiment with, I believe as a group
 
 Currently our coders are Camden Martin and Malia Moreno.
 
-Our testers and other joining the progect will be Veronica Scott, Bibiennegrace Lopez, and Emma Lee.
+Our testers and others joining this progect will be Veronica Scott, Bibiennegrace Lopez, and Emma Lee.
 
 I also want to give the credit to this idea to Emma Lee.
