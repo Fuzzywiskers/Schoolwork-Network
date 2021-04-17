@@ -15,8 +15,14 @@ function enter(){
     for(i=0; i<system.length; i++){
         if(username==system[i].systemU && password==system[i].systemP){
             console.log("correct!");
+            window.location="main.html"
         }else{
             console.log("incorrect");
         }
     }
+}
+
+function project_1(){
+    console.log("testing 1")
+    window.location="project-1.html"
 }
