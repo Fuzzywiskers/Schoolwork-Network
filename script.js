@@ -40,3 +40,19 @@ function closeMenu(){
 function option2(){
     document.getElementById("popup-1").classList.toggle("active");
 }
+
+//create new div//
+function createPro(){
+    //set inputs into variables//
+    let tilte = document.getElementById("pro-title").value;
+    let desc = document.getElementById("pro-desc").value;
+    let colab = document.getElementById("pro-colab").value;
+    //create new div//
+    let div = document.createElement("div");
+    div.id = "added project";
+    div.innerHTML = "project testing";
+    div.style.display = "flex";
+    div.style.padding = "10px";
+    div.style.border = "1px solid black"
+    document.getElementsByClassName("container-1")[0].appendChild(div);
+}
