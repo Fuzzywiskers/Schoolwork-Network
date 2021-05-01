@@ -44,15 +44,26 @@ function option2(){
 //create new div//
 function createPro(){
     //set inputs into variables//
-    let tilte = document.getElementById("pro-title").value;
-    let desc = document.getElementById("pro-desc").value;
+    let title = document.getElementById("pro-title").value;
+    let decs = document.getElementById("pro-desc").value;
     let colab = document.getElementById("pro-colab").value;
     //create new div//
     let div = document.createElement("div");
-    div.id = "added project";
-    div.innerHTML = "project testing";
+    let div_t = document.createElement("h1");
+    let div_d = document.createElement("h3");
+    div_t.innerHTML = title
+    div_d.innerHTML = decs
+    //organize div//
+    div.id = "new-project";
     div.style.display = "flex";
     div.style.padding = "10px";
-    div.style.border = "1px solid black"
+    div.style.border = "1px solid black";
+
+    //adding a clickable function//
+    div.addEventListener("click", project_1())
+
+    //appending//
+    div.appendChild(div_t);
+    div.appendChild(div_d);
     document.getElementsByClassName("container-1")[0].appendChild(div);
 }
