@@ -36,6 +36,7 @@ function closeMenu(){
     document.getElementById("mySideMenu").style.width = "0";
 }
 
+//popup menu//
 function option2(){
-    console.log("Option 2")
+    document.getElementById("popup-1").classList.toggle("active");
 }
