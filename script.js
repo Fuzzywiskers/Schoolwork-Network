@@ -35,3 +35,7 @@ function option1(){
 function closeMenu(){
     document.getElementById("mySideMenu").style.width = "0";
 }
+
+function option2(){
+    console.log("Option 2")
+}
