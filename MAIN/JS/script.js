@@ -23,7 +23,6 @@ function enter(){
 }
 
 function project_1(){
-    console.log("testing 1")
     window.location="project-1-todo.html"
 }
 

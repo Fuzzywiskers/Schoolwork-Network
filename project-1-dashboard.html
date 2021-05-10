@@ -3,17 +3,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="script4.css">
+    <script src="MAIN/JS/script4.js"></script>
+    <link rel="stylesheet" href="MAIN/CSS/script4.css">
     <title>Project-1: Dashboard</title>
 </head>
 <body background="images/grid_back.png">
+    <!--Drop Down-->
     <div class="dropdown-1">
         <div class="openbtn1" onclick="openDrop()">&plus;</div>
         <div id="drop-content" class="drop1-content">
-            <a href="#">Test 1</a>
-            <a href="#">Test 2</a>
-            <a href="#">Test 3</a>
+            <!--Drop down Content-->
+            <a href="#" onclick="upload_img()">Upload Image</a>
+            <a href="#" onclick="upload_file()">File</a>
+            <a href="#">Audio</a>
+        </div>
+    </div>
+    <!--Popup 1-->
+    <div class="popup-1" id="upload_img_act">
+        <div class="content-upimg">
+            <div class="closebtn" onclick="upload_img()">&times;</div>
+            <h2>Upload an Image</h2>
+            <input type="text" id="upload_imgin" placeholder="Image ID">
+            <h3 onclick="add_img()">Add</h3>
+        </div>
+    </div>
+    <div class="popup-2" id="upload_file_act">
+        <div class="content-upfile">
+            <div class="closebtn2" onclick="upload_file()">&times;</div>
+            <h2>Upload a File</h2>
+            <input type="file" id="uploadfilein" placeholder="File ID">
+            <h3 onclick="add_file()">Add</h3>
         </div>
     </div>
 </body>
