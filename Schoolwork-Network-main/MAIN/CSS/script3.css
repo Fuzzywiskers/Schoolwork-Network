@@ -1,0 +1,76 @@
+.container-1 {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*side menu*/
+.sideMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sideMenu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sideMenu a:hover {
+    color: #f1f1f1;
+}
+  
+.sideMenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/*drop down: open button*/
+.openbtn1{
+    position: relative;
+    cursor: pointer;
+    color: #000;
+    font-size: 45px;
+    padding: 10px;
+}
+
+/*position dropdown div box*/
+.dropdown-1{
+    position: relative;
+    display: inline-block;
+}
+
+/*drop down: content*/
+.drop1-content{
+    display: none;
+    position: absolute;
+    background-color: #323131;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(90, 87, 87, 0.2);
+    z-index: 1;
+}
+
+.drop1-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.drop1-content a:hover{background-color: #505050}
+.show{display: block;}

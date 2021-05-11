@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="MAIN/JS/script3.js"></script>
+    <link rel="stylesheet" href="MAIN/CSS/script3.css">
+    <title>Project: todo</title>
+</head>
+<body>
+    <!--side menu open-->
+    <div id="mySideMenu" class="sideMenu">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+        <a href="#">Blog</a>
+        <a href="#">Friends</a>
+        <a href="#">Settings</a>
+        <a href="#">Home</a>
+        <a href="#">Sign Out</a>
+    </div>
+    <div class="options">
+        <span style="cursor:pointer" onclick="option1()"><img width="50" height="50" src="images/menu.png" alt=""></span>
+    </div>
+    <!--drop down-->
+    <div class="dropdown-1">
+        <div class="openbtn1" onclick="openDrop()">&plus;</div>
+        <div id="drop-content" class="drop1-content">
+            <a href="#">Test 1</a>
+            <a href="#">Test 2</a>
+            <a href="#">Test 3</a>
+        </div>
+    </div>
+    <!--main container-->
+    <div class="container-1">
+        <div class="heading"><h1>To Do</h1></div>
+    </div>
+    <!--calender-->
+    <div class="container-2">
+        <div class="top-cal">
+            <h2>May</h2>
+            <h3>2021</h3>
+        </div>
+        <div class="days-cal">
+            <li>test 1</li>
+        </div>
+    </div>
+</body>
+</html>
